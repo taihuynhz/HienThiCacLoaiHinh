@@ -17,7 +17,7 @@ namespace HienThiCacLoaiHinh
             Console.WriteLine("3. Print isosceles triangle");
             Console.WriteLine("0. Exit");
             Console.Write("Enter your choice: ");
-            choice = Int32.Parse(Console.ReadLine());
+            choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
             {   
